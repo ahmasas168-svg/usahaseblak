@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seblak Pedas Maknyus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ff6b6b;
+        }
+        .menu {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        .menu-item {
+            background-color: #fff3e6;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .menu-item h3 {
+            margin-top: 0;
+            color: #ff3f3f;
+        }
+        .contact {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .contact a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #ff6b6b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        @media(max-width: 600px){
+            .menu {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seblak Pedas Maknyus</h1>
+        <p>Jl. Kota Bambu Utara, Bandung</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Daftar Menu</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <h3>Seblak Original</h3>
+                <p>Kerupuk basah + makaroni + sayuran segar</p>
+                <p>Harga: Rp10.000</p>
+            </div>
+            <div class="menu-item">
+                <h3>Seblak Keju</h3>
+                <p>Seblak Original + parutan keju cheddar</p>
+                <p>Harga: Rp12.000</p>
+            </div>
+            <div class="menu-item">
+                <h3>Seblak Sosis</h3>
+                <p>Seblak Original + sosis sapi/ayam</p>
+                <p>Harga: Rp12.000</p>
+            </div>
+            <div class="menu-item">
+                <h3>Seblak Bakso</h3>
+                <p>Seblak Original + bakso sapi/ayam</p>
+                <p>Harga: Rp14.000</p>
+            </div>
+            <div class="menu-item">
+                <h3>Seblak Seafood</h3>
+                <p>Seblak Original + udang, cumi, kerang</p>
+                <p>Harga: Rp18.000</p>
+            </div>
+            <div class="menu-item">
+                <h3>Seblak Special Combo</h3>
+                <p>Seblak Original + keju + sosis + bakso + topping pilihan</p>
+                <p>Harga: Rp20.000</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2 class="section-title">Pesan Sekarang</h2>
+            <p>Pesan melalui WhatsApp atau Instagram:</p>
+            <a href="https://wa.me/6285846011477" target="_blank">Chat WA: 085846011477</a>
+            <a href="https://instagram.com/rizkyyfauzi_" target="_blank">Instagram: @rizkyyfauzi_</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Seblak Pedas Maknyus. All rights reserved.
+    </footer>
+</body>
+</html>
+
